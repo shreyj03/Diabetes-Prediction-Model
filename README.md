@@ -13,9 +13,19 @@ Our goal is to accurately **predict whether an individual has diabetes** using s
 
 ---
 
-## 📊 Dataset
+## 📂 Dataset Access
 
-- **Source**: [Kaggle - Diabetes Health Dataset](https://www.kaggle.com/datasets/iammustafatz/diabetes-prediction-dataset)
+Due to file size limitations, the cleaned dataset is hosted externally:
+
+👉 [**Download Cleaned Diabetes Dataset (CSV)**](https://drive.google.com/file/d/1Vpq-vGhLxNkrlLJw9XaiwLswkw9FenCe/view?usp=share_link)
+
+- **Original Dataset Source**: [Kaggle - Diabetes Health Dataset](https://www.kaggle.com/datasets/iammustafatz/diabetes-prediction-dataset)
+- Data cleaning is handled within the notebook, but you may use the above cleaned CSV directly to replicate our results.
+
+---
+
+## 📊 Dataset Description
+
 - **Original Size**: 100,000 records
 - **Features**: Age, BMI, HbA1c levels, hypertension, heart disease, gender, smoking history, etc.
 - **Class Imbalance**: Original ratio of non-diabetic to diabetic was **10.76:1**
@@ -80,10 +90,10 @@ We engineered additional features to boost performance:
 
 ### 🎯 Tuned Hyperparameters:
 
-- `max_depth`: 5
-- `learning_rate`: 0.1
-- `min_samples_split`: 2
-- `min_samples_leaf`: 1
+- `max_depth`: 5  
+- `learning_rate`: 0.1  
+- `min_samples_split`: 2  
+- `min_samples_leaf`: 1  
 - `n_estimators`: 100
 
 ### Final Metrics:
